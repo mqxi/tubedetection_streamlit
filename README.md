@@ -1,7 +1,6 @@
 # Object detection and Streamlit
 
-
-This repository is a comprehensive open-source project that demonstrates the integration of object detection and tracking using the YOLOv8 object detection algorithm and Streamlit, a popular Python web application framework for building interactive web applications. This project provides a user-friendly and customizable interface that can detect and track objects in real-time video streams.
+This repository is a internal project to detect tubes using the YOLOv8 object detection algorithm and streamlit, a Python web application framework for building interactive web applications. 
 
 
 ## Requirements
@@ -18,7 +17,7 @@ pip install ultralytics streamlit
 ## Installation
 
 - Clone the repository: git clone 
-- Change to the repository directory: `cd yolov8-streamlit-detection-tracking`
+- Change to the repository directory: `cd tubedetection_streamlit`
 - Install the requirements: `pip install -r requirements.txt`
 - Use the tube-trained yolov8 model and save it to the `weights` directory in the same project.
 
