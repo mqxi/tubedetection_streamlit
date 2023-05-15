@@ -34,7 +34,7 @@ model_path = Path(settings.SEGMENTATION_MODEL)
 
 #confidence = float(st.sidebar.slider("Select Model Confidence", 25, 100, 40)) / 100
 confidence = st.sidebar.slider(
-    'Confidence [%]', min_value=0.0, max_value=1.0, value=0.60)
+    'Confidence [%]', min_value=0.25, max_value=1.0, value=0.60)
 
 
 # Load Pre-trained ML Model
@@ -57,9 +57,6 @@ elif source_radio == settings.MULTICAMS:
 
 elif source_radio == settings.RTSP:
     helper.play_rtsp_stream(confidence, model)
-
-elif source_radio == settings.YOUTUBE:
-    helper.play_youtube_video(confidence, model)
 
 else:
     st.error("Please select a valid source type!")
