@@ -1,0 +1,1 @@
+Save your yolov8 model in this dir
