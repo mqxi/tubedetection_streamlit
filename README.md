@@ -5,10 +5,10 @@ This repository is a internal project to detect tubes using the YOLOv8 object de
 
 ## Requirements
 
-Python 3.6+
-YOLOv8 Model
-Ultralytics
-Streamlit
+- Python 3.6+
+- YOLOv8 Model
+- Ultralytics
+- Streamlit
 
 ```bash
 pip install ultralytics streamlit
