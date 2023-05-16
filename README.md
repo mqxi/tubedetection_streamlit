@@ -15,13 +15,16 @@ pip install ultralytics streamlit
 ```
 
 ## Installation
-Optional: `pip install 
+Optional: 
+```bash
+pip install virtualenv
+```
 - Start Python environment:
-  - ```bash python3 -m venv [Virtual Environment Name]```
+  - ```python3 -m venv [Virtual Environment Name]```
   - [Windows]
-  - ```bash .\[Virtual Environment Folder Name]\Scripts\activate```
+  - ```.\[Virtual Environment Folder Name]\Scripts\activate```
   - [Unix]
-  - ```bash source [Virtual Environment Name]/bin/activate```
+  - ```source [Virtual Environment Name]/bin/activate```
 Mandatory:
 - Clone the repository: `git clone https://github.com/mqxi/tubedetection_streamlit.git `
 - Change to the repository directory: `cd tubedetection_streamlit`
