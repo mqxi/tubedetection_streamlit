@@ -16,11 +16,11 @@ pip install ultralytics streamlit
 
 ## Installation
 - Start Python environment:
-  - python3 -m venv [Virtual Environment Name]
+  - `python3 -m venv [Virtual Environment Name]`
   - [Windows]
-  - .\[Virtual Environment Folder Name]\Scripts\activate
+  - `.\[Virtual Environment Folder Name]\Scripts\activate`
   - [Unix]
-  - source [Virtual Environment Name]/bin/activate
+  - `source [Virtual Environment Name]/bin/activate`
 - Clone the repository: `git clone https://github.com/mqxi/tubedetection_streamlit.git `
 - Change to the repository directory: `cd tubedetection_streamlit`
 - Install the requirements: `pip install -r requirements.txt`
@@ -45,14 +45,14 @@ Once the model config is done, select a source.
 - Select the radio button Webcam.
 - Click "Detect Tubes" to run the tube detection algorithm on the live webcam connected to the system.
 - The webcam will now be streamed on the page with the colored object detected.
-- To end the stream click "Stop" on the top left of the page.
+- To end the stream click `Stop` on the top left of the page.
 
 
 ### Detection in Multicamera Mode
 
 - Select the radio button Line Clearance Mode
 - Click the "Detect Tubes" Button to run the tube detection algorithm on the live cams connected to the system with the selected confidence threshold.
-- Side Info: The cams start right after the click on "Detect Tubes", 
+- Side Info: The cams start right after the click on `Detect Tubes`, 
 - The resulting images for each webcam with object detected will be displayed on the page.
 - If an image contains a tube, the tube will be colored red and an additional warning sign below the image will be shown.
 
