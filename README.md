@@ -43,7 +43,7 @@ Once the model config is done, select a source.
 ### Detection on main-webcam
 
 - Select the radio button Webcam.
-- Click "Detect Tubes" to run the tube detection algorithm on the live webcam connected to the system.
+- Click `Detect Tubes` to run the tube detection algorithm on the live webcam connected to the system.
 - The webcam will now be streamed on the page with the colored object detected.
 - To end the stream click `Stop` on the top left of the page.
 
