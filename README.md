@@ -48,7 +48,7 @@ Once the model config is done, select a source.
 - To end the stream click "Stop" on the top left of the page.
 
 
-### Detection in line clearance mode
+### Detection in Multicamera Mode
 
 - Select the radio button Line Clearance Mode
 - Click the "Detect Tubes" Button to run the tube detection algorithm on the live cams connected to the system with the selected confidence threshold.
