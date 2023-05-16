@@ -21,7 +21,7 @@ pip install ultralytics streamlit
   - .\[Virtual Environment Folder Name]\Scripts\activate
   - [Unix]
   - source [Virtual Environment Name]/bin/activate
-- Clone the repository: ´git clone https://github.com/mqxi/tubedetection_streamlit.git´
+- Clone the repository: `git clone https://github.com/mqxi/tubedetection_streamlit.git´
 - Change to the repository directory: `cd tubedetection_streamlit`
 - Install the requirements: `pip install -r requirements.txt`
 - Use the tube-trained yolov8 model and save it to the `weights` directory in the same project.
